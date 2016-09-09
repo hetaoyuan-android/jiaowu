@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">有朋</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_grade_point">GradePointActivity</string>
+    <string name="title_activity_construct">建设中</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_course">课表</string>
+
+    <string name="share_text">有朋自远方来,不亦乐乎,有朋是一款全新的校园社交软件</string>
+    <string name="share">分享到</string>
+    <string name="title_activity_profile">个人中心</string>
+</resources>

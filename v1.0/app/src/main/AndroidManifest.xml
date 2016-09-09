@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.youpeng.wefriend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.WeFriendApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/school"
+        android:label="教务系统"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <!-- 欢迎的activity -->
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="教务系统">
+
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+             />
+        <activity
+            android:name=".activity.GradePointActivity"
+            android:label="@string/title_activity_grade_point"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.ConstructActivity"
+            android:label="@string/title_activity_construct" />
+        <activity
+            android:name=".activity.CourseActivity"
+            android:label="@string/title_activity_course"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.CourseDetailActivity"
+            android:parentActivityName=".activity.CourseActivity" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".activity.MainActivity"></activity>
+    </application>
+
+</manifest>
